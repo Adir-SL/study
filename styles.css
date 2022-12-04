@@ -23,7 +23,7 @@ body{
     border-radius: 10px;
 }
 .small-logo{
-    
+    background-image: url(assets/anodot-logo.svg);
 }
 section{
     display: flex;
