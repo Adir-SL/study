@@ -21,6 +21,7 @@ body{
     height: 60vw;
     background-color: var(--text-color);
     border-radius: 10px;
+    overflow: hidden;
 }
 .small-logo{
     background-image: url(assets/anodot-logo.svg);
@@ -28,6 +29,9 @@ body{
     width: 100px;
     aspect-ratio: 2 / 3;
     margin-top: 40px;
+}
+.video{
+    width: 100%;
 }
 section{
     display: flex;
