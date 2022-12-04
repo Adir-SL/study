@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'interDisplay';
+    src: url('assets/InterDisplay.ttf') format('ttf');
+  }
+
 body{
     font-size: 1px;
 }
