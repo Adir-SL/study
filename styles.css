@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
 @font-face {
     font-family: 'interDisplay';
     src: url('assets/InterDisplay.ttf') format('truetype');
@@ -23,11 +25,7 @@ body{
     overflow: hidden;
 }
 .small-logo{
-    background-image: url(assets/anodot-logo.svg);
-    background-repeat: no-repeat;
-    width: 100px;
-    aspect-ratio: 2 / 3;
-    margin-top: 40px;
+    font-family: 'Space Grotesk', sans-serif;
 }
 .video{
     width: 100%;
