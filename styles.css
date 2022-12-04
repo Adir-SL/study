@@ -16,3 +16,7 @@ body{
     color: var(--text-color);
     margin: 10vw;
 }
+.video-section{
+    width: 90vw;
+    background-color: var(--text-color);
+}
