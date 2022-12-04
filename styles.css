@@ -22,3 +22,8 @@ body{
     background-color: var(--text-color);
     border-radius: 10px;
 }
+
+section{
+    display: flex;
+    justify-content: center;
+}
