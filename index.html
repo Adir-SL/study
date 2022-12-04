@@ -18,11 +18,15 @@
             </div>
         </section>
         <section>
-            <div class="video-section" data-sal="fade"></div>
+            <div class="video-section" data-sal="slide-up"></div>
         </section>
     </div>
 
     <script>
+        sal({
+            threshold: 0.1,
+            once: true,
+        });
         sal();
     </script>
 </body>
