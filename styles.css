@@ -6,14 +6,14 @@
   }
 
 :root{
---text-color: #0B1627;
+    --text-color: #0B1627;
+    --font-size: 1px;
 }
 body{
-    font-size: 1px;
     font-family: 'interDisplay', sans-serif;
 }
 .big-header{
-    font-size: 110em;
+    font-size: calc(var(--font-size) * 110);
     line-height: 1;
     color: var(--text-color);
     margin: 10vw;
@@ -26,6 +26,8 @@ body{
 }
 .small-logo{
     font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: calc(var(--font-size) * 20);
 }
 .video{
     width: 100%;
