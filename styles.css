@@ -28,6 +28,7 @@ body{
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
     font-size: calc(var(--font-size) * 20);
+    margin: 40px 6px;
 }
 .video{
     width: 100%;
