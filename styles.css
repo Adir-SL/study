@@ -1,11 +1,16 @@
 @font-face {
     font-family: 'interDisplay';
-    src: url('assets/InterDisplay.ttf') format('ttf');
+    src: url('assets/InterDisplay.ttf') format('truetype');
   }
 
+  :root{
+    --text-color: #0B1627;
+  }
 body{
     font-size: 1px;
+    font-family: 'interDisplay', sans-serif;
 }
 .big-header{
     font-size: 130em;
+    color: var(--text-color);
 }
