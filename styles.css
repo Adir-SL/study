@@ -20,4 +20,5 @@ body{
     width: calc(100% - 60px);
     height: 60vw;
     background-color: var(--text-color);
+    border-radius: 10px;
 }
