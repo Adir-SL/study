@@ -30,8 +30,12 @@ body{
     font-size: calc(var(--font-size) * 20);
     margin: 40px 6px;
 }
-.video, .video-like{
+.video{
     width: 100%;
+}
+.video-like{
+    width: 100%;
+    height: 100%;
 }
 section{
     display: flex;
