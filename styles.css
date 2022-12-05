@@ -16,6 +16,7 @@ body{
     background-color: #FF8F24;
     color: #ffffff;
     border-radius: 4px;
+    border: 1px solid black;
 }
 .big-header{
     font-size: calc(var(--font-size) * 110);
