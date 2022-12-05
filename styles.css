@@ -25,6 +25,9 @@ body{
     margin: 10vw;
     display: flex;
 }
+.text-16{
+    font-size: calc(var(--font-size) * 16);
+}
 .video-section{
     width: calc(100% - 60px);
     background-color: var(--text-color);
