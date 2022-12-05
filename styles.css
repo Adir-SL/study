@@ -18,6 +18,12 @@ body{
     color: var(--text-color);
     margin: 10vw;
 }
+.text-section{
+    font-size: calc(var(--font-size) * 35);
+    line-height: 1.3;
+    color: var(--text-color);
+    margin: 10vw;
+}
 .video-section{
     width: calc(100% - 60px);
     background-color: var(--text-color);
