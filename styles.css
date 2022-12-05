@@ -12,6 +12,11 @@
 body{
     font-family: 'interDisplay', sans-serif;
 }
+::selection{
+    background-color: #2671FF;
+    color: #ffffff;
+    border-radius: 4px;
+}
 .big-header{
     font-size: calc(var(--font-size) * 110);
     line-height: 1;
