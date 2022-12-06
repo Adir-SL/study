@@ -50,6 +50,7 @@ body{
 }
 .video{
     width: 100%;
+    display: block;
 }
 .video-like{
     width: 100%;
