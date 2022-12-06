@@ -11,6 +11,7 @@
 }
 body{
     font-family: 'interDisplay', sans-serif;
+    margin: 0;
 }
 ::selection{
     background-color: #2671FF;
