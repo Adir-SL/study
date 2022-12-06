@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'interDisplay';
-    src: url('assets/InterDisplay.ttf') format('truetype');
+    src: url('assets/InterDisplay.var.woff2') format('woff2');
   }
 
 :root{
