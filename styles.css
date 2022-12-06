@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 
 @font-face {
-    font-family: 'interDisplay';
-    src: url('assets/InterDisplay.var.woff2') format('woff2');
-  }
+    font-family: "interDisplay";
+    src: url("font/InterDisplay-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+}
 
 :root{
     --text-color: #0B1627;
