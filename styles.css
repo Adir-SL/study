@@ -36,7 +36,6 @@ body{
 }
 .video-section{
     width: calc(100% - 60px);
-    background-color: var(--text-color);
     border-radius: 10px;
     overflow: hidden;
 }
