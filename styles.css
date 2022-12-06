@@ -67,3 +67,6 @@ section{
     display: flex;
     justify-content: center;
 }
+b{
+    font-weight: 700;
+}
