@@ -15,7 +15,7 @@ body{
 }
 ::selection{
     background-color: #2671FF;
-    color: #ffffff;
+    color: #FF8F24;
 }
 .big-header{
     font-size: calc(var(--font-size) * 110);
