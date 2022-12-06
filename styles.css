@@ -39,6 +39,9 @@ body{
     border-radius: 10px;
     overflow: hidden;
 }
+.full-width{
+    width: 100vw;
+}
 .small-logo{
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
