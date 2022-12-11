@@ -51,6 +51,9 @@ body{
     height: 100%;
     width: unset;
 }
+.dark-bg{
+    background-color: var(--text-color);
+}
 .small-logo{
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
