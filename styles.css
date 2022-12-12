@@ -23,7 +23,6 @@ body{
 .text-section{
     font-size: calc(var(--font-size) * 35);
     line-height: 1.3;
-    color: var(--text-color);
     margin: 20vw 10vw;
     gap: 80px;
     display: flex;
