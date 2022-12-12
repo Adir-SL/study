@@ -116,7 +116,8 @@
             var i;
             for (i = 0; i < x.length; i++) {
                 if(x[i].querySelector("video") !== null){
-                    x[i].querySelector("video").pause();
+                    x[i].querySelector("video").currentTime = 0;
+                    x[i].querySelector("video").play();
                 }
             }
         }
