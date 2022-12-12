@@ -82,6 +82,7 @@ section{
     display: flex;
     justify-content: center;
     min-height: 100vh;
+    color: var(--text-color);
 }
 .light-text{
     font-weight: 300;
