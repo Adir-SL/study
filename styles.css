@@ -62,6 +62,10 @@ body{
     font-size: calc(var(--font-size) * 20);
     margin: 40px 6px;
 }
+.no-height{
+    height: auto;
+    min-height: auto;
+}
 .video{
     width: 100%;
     display: block;
