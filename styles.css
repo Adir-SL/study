@@ -55,7 +55,7 @@ body{
 }
 .dark-bg{
     background-color: var(--text-color);
-    color: var(--text-color);
+    color: var(--bg-color);
 }
 .small-logo{
     font-family: 'Space Grotesk', sans-serif;
