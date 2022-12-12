@@ -64,6 +64,7 @@ body{
 .video{
     width: 100%;
     display: block;
+    border-radius: 10px;
 }
 .video-like{
     width: 100%;
