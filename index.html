@@ -108,7 +108,17 @@
         sal();
         
         function changeSection(){
-            console.log("section !")
+            setTimeout(function(){ restartVideos(); }, 300);
+        }
+
+        function restartVideos(){
+            var x = document.querySelectorAll(".sal-animate");
+            var i;
+            for (i = 0; i < x.length; i++) {
+                if(x[i].querySelector("video") !== null){
+                    x[i].querySelector("video").pause();
+                }
+            }
         }
     </script>
 </body>
