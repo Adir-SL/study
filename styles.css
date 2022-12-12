@@ -3,6 +3,7 @@
 
 :root{
     --text-color: #0B1627;
+    --bg-color: #FFFFFF;
     --font-size: 1px;
 }
 body{
@@ -54,6 +55,7 @@ body{
 }
 .dark-bg{
     background-color: var(--text-color);
+    color: var(--text-color);
 }
 .small-logo{
     font-family: 'Space Grotesk', sans-serif;
