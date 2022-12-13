@@ -82,6 +82,7 @@ body{
 .video-flex .video{
     width: 50%;
 }
+.center-flex{}
 section{
     display: flex;
     justify-content: center;
