@@ -22,7 +22,7 @@ body{
     margin: 10vw;
 }
 .medium-header{
-    font-size: calc(var(--font-size) * 110);
+    font-size: calc(var(--font-size) * 80);
     line-height: 1;
     color: var(--text-color);
     margin: 10vw;
