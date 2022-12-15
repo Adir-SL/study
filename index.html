@@ -130,10 +130,20 @@
             setTimeout(function(){ restartVideos(); }, 300);
         }
 
+        function stopAllVideos(){
+            var x = document.querySelectorAll("video");
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].pause();
+            }
+        }
+
         function restartVideos(){
             var x = document.querySelectorAll(".sal-animate");
             var i;
             for (i = 0; i < x.length; i++) {
+                stopAllVideos();
+
                 if(x[i].querySelector("video") !== null && x[i].querySelector("video").classList.contains("animated") !== true){
                     x[i].querySelector("video").currentTime = 0;
                     x[i].querySelector("video").play();
