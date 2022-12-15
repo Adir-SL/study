@@ -21,6 +21,12 @@ body{
     color: var(--text-color);
     margin: 10vw;
 }
+.medium-header{
+    font-size: calc(var(--font-size) * 110);
+    line-height: 1;
+    color: var(--text-color);
+    margin: 10vw;
+}
 .text-section{
     font-size: calc(var(--font-size) * 35);
     line-height: 1.3;
