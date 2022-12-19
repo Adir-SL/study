@@ -79,9 +79,9 @@ body{
     border-radius: 10px;
 }
 .center-width{
-    width: 70%;
-    margin: 0 15%;
-    /* transform: scale(.7); */
+    /* width: 70%;
+    margin: 0 15%; */
+    transform: scale(.7);
 }
 .video-like{
     width: 100%;
